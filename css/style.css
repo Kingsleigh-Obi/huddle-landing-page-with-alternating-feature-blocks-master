@@ -1,0 +1,720 @@
+body
+{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-bottom: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+/* start of top box */
+.top-box
+{
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-size: cover;
+    padding-left: 90px;
+    margin-bottom: 100px;
+    color: hsl(192, 100%, 9%);
+    padding-top: 0px;
+}
+
+.top-box .logo-box
+{
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+
+.top-box .logo-box img
+{
+    margin-right: 900px;
+    width: 200px;
+}
+
+.top-box .logo-box button
+{
+    width: 150px;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-weight:400;
+    margin-top: -1000px;
+
+}
+
+.top-box .objective-flexbox
+{
+    display: flex;
+}
+
+.objective-flexbox .objective
+{
+    width: 600px;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.objective-flexbox img
+{
+    width: 600px;
+    height: 400px;
+}
+
+.objective h3
+{
+    width: 250px;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.objective p
+{
+    width: 450px;
+    font-weight: 400;
+}
+
+.objective button
+{
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 400;
+}
+
+/* End of top box */
+
+/* start of middle box1 */
+.middle-box1
+{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 0 0 20px -15px black;
+    border-radius: 20px;
+}
+
+.middle-box1 .text1
+{
+    width: 500px;
+    margin-right: 90px;
+}
+
+.middle-box1 img
+{
+    width: 500px;
+    height: 300px;
+}
+
+.middle-box1 .text1 h3
+{
+    width: 200px;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.middle-box1 .text1 p
+{
+    width: 450px;
+    color: hsl(208, 11%, 55%);
+}
+
+/* End of middle box1 */
+
+/* start of middle box2 */
+.middle-box2
+{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 0 0 20px -15px black;
+    border-radius: 20px;
+}
+
+.middle-box2 .text2
+{
+    width: 500px;
+}
+
+.middle-box2 .image-box
+{
+    margin-right: 200px;
+}
+
+.middle-box2 img
+{
+    width: 500px;
+    height: 300px;
+}
+
+.text2 h3
+{
+    width: 250px;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.text2 p
+{
+    width: 400px;
+    color: hsl(208, 11%, 55%);
+}
+
+/* End of middle box2 */
+
+/* start of middle box3 */
+.middle-box3
+{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    box-shadow: 0 0 20px -15px black;
+    border-radius: 20px;
+}
+
+.middle-box3 .text3
+{
+    width: 500px;
+    margin-right: 90px;
+}
+
+.middle-box3 img
+{
+    width: 500px;
+    height: 300px;
+}
+
+.middle-box3 .text3 h3
+{
+    width: 200px;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.middle-box3 .text3 p
+{
+    width: 450px;
+    color: hsl(208, 11%, 55%);
+}
+/* End of middle box3 */
+
+/* start of ready to build */
+.ready-to-build
+{
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px -15px black;
+    z-index: 3;
+    margin-top: -720px;
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+}
+
+.ready-to-build button
+{
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 600;
+}
+/* End of ready to build */
+
+.bottom-box
+{
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: 2;
+    padding-left: 100px;
+    display: flex;
+    color: hsl(193, 100%, 96%);
+}
+
+.bottom-box svg
+{
+    margin-bottom: 20px;
+}
+
+.bottom-box .box1
+{
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.bottom-box .box1 .flex-something
+{
+    display: flex;
+}
+
+.bottom-box .box1 .flex-something
+{
+    display: flex;
+}
+
+.bottom-box img
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.bottom-box .box1 p
+{
+    width: 350px;
+    margin-top: 25px;
+}
+
+
+.bottom-box .box2
+{
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.bottom-box .box2 p
+{
+    margin-bottom: 40px;
+}
+
+.bottom-box .box3
+{
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.bottom-box .box3 p
+{
+    margin-bottom: 40px;
+}
+
+.bottom-box .box4
+{
+    margin-top: 150px;
+}
+
+/* icons */
+.social-icons
+{
+    margin-bottom: 210px;
+}
+
+.social-icons i
+{
+    border: 1px dotted white;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.test
+{
+    background-color: red;
+}
+
+/* mobile view */
+@media(max-width: 414px)
+{
+    
+    body,html
+    {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    /* start of top box */
+    .top-box
+    {
+        padding-left: 0;
+    }
+    
+    .top-box .logo-box
+    {
+        margin-bottom: 50px;
+        padding-top: 20px;
+        display: block;
+    }
+
+    .top-box .logo-box img
+    {
+        margin-right: 150px;
+        width: 25%;
+    }
+
+    .top-box .logo-box button
+    {
+        width: 30%;
+        border-radius: 20px;
+        height: 30px;
+        border: none;
+        background-color: white;
+        font-weight: 600;
+        margin-top: 0px;
+
+    }
+
+    .top-box .objective-flexbox
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .objective-flexbox .objective
+    {
+        width: 100%;
+        margin-top: 50px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    
+    .objective-flexbox img
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    .objective h3
+    {
+        width: 70%;
+        color: hsl(192, 100%, 9%);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .objective p
+    {
+        width: 80%;
+        font-weight: 400;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .objective button
+    {
+        width: 200px;
+        border-radius: 20px;
+        height: 40px;
+        border: none;
+        background-color: hsl(322, 100%, 66%);
+        color: white;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    /* End of top box */
+
+/* start of middle box1 */
+    .middle-box1
+    {
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        box-shadow: 0 0 20px -15px black;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .middle-box1 .text1
+    {
+        width: 80%;
+        margin-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .middle-box1 .image-box
+    {
+        margin-right: 0px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-box1 img
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    .middle-box1 .text1 h3
+    {
+        width: 100%;
+        color: hsl(192, 100%, 9%);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .middle-box1 .text1 p
+    {
+        width: 100%;
+        color: hsl(208, 11%, 55%);
+    }
+
+    /* End of middle box1 */
+
+    /* start of middle box2 */
+    .middle-box2
+    {
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        box-shadow: 0 0 20px -15px black;
+        border-radius: 20px;
+    }
+
+    .middle-box2 .text2
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .middle-box2 .image-box
+    {
+        margin-right: 0px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-box2 img
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    .text2 h3
+    {
+        width: 100%;
+        color: hsl(192, 100%, 9%);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .text2 p
+    {
+        width: 100%;
+        color: hsl(208, 11%, 55%);
+    }
+
+    /* End of middle box2 */
+
+    /* start of middle box3 */
+    .middle-box3
+    {
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        box-shadow: 0 0 20px -15px black;
+        border-radius: 20px;
+    }
+
+    .middle-box3 .text3
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .middle-box3 .image-box
+    {
+        margin-right: 0px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-box3 img
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    .middle-box3 .text3 h3
+    {
+        width: 100%;
+        color: hsl(192, 100%, 9%);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .middle-box3 .text3 p
+    {
+        width: 100%;
+        color: hsl(208, 11%, 55%);
+    }
+    
+    /* End of middle box3 */
+
+    .ready-to-build
+    {
+        width: 85%;
+        margin-top: -1420px;
+    }
+
+    .ready-to-build button
+    {
+        font-weight: 400;
+    }
+    /* End of ready to build */
+
+    .bottom-box
+    {
+        background-color: hsl(192, 100%, 9%);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        z-index: 2;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        color: hsl(193, 100%, 96%);
+    }
+
+    .bottom-box svg
+    {
+        margin-bottom: 10px;
+    }
+
+    .bottom-box .box1
+    {
+        margin-right: 100px;
+        margin-top: 100px;
+    }
+
+    .bottom-box .box1 .flex-something
+    {
+        display: flex;
+    }
+
+    .bottom-box img
+    {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .bottom-box .box1 p
+    {
+        width: 350px;
+        margin-top: 30px;
+    }
+
+
+    .bottom-box .box2
+    {
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+
+    .bottom-box .box2 p
+    {
+        margin-bottom: 40px;
+    }
+
+    .bottom-box .box3
+    {
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+
+    .bottom-box .box3 p
+    {
+        margin-bottom: 40px;
+    }
+
+    .bottom-box .box4
+    {
+        margin-top: 30px;
+    }
+
+    /* icons */
+    .social-icons
+    {
+        margin-bottom: 20px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box4 p
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-icons i
+    {
+        border: 1px dotted white;
+        border-radius: 50%;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
+        margin-right: 20px;
+    }
+}
